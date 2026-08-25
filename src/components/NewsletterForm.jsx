@@ -10,6 +10,7 @@ function NewsletterForm() {
                 placeholder="feed your email to our newsletter"
                 required
             />
+            <button type="submit">Subscribe</button>
         </form>
     )
 }
