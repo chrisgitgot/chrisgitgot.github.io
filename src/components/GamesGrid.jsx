@@ -36,20 +36,23 @@ function GamesGrid() {
     const [expandedId, setExpandedId] = useState(null)
 
     return (
-        <div className={`games${expandedId ? ' games--expanded' : ''}`}>
-            {games
-                .filter((game) => !expandedId || game.id === expandedId)
-                .map((game) => (
-                    <GameBox
-                        key={game.id}
-                        game={game}
-                        expanded={game.id === expandedId}
-                        onToggle={() =>
-                            setExpandedId((prev) => (prev === game.id ? null : game.id))
-                        }
-                    />
-                ))}
-        </div>
+        <>
+            <h2 className="games-heading">↓&nbsp; our games &nbsp;↓</h2>
+            <div className={`games${expandedId ? ' games--expanded' : ''}`}>
+                {games
+                    .filter((game) => !expandedId || game.id === expandedId)
+                    .map((game) => (
+                        <GameBox
+                            key={game.id}
+                            game={game}
+                            expanded={game.id === expandedId}
+                            onToggle={() =>
+                                setExpandedId((prev) => (prev === game.id ? null : game.id))
+                            }
+                        />
+                    ))}
+            </div>
+        </>
     )
 }
 
