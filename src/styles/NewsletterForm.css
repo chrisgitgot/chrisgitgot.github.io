@@ -21,3 +21,8 @@ input::-moz-selection {
     background: rgb(63, 169, 245);
     color: white;
 }
+@media (max-width: 700px) {
+    .app .footer p {
+        font-size: 80%;
+    }
+}
