@@ -8,9 +8,9 @@ form input {
     color: rgb(63, 169, 245);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1080px) {
     .app .form input {
-        font-size: 80%;
+        font-size: 60%;
     }
 }
 
