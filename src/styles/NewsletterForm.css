@@ -9,8 +9,8 @@ form input {
 }
 
 @media (max-width: 1080px) {
-    .app .form input {
-        font-size: 60%;
+    form input {
+        font-size: 120%;
     }
 }
 
