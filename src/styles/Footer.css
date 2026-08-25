@@ -4,3 +4,9 @@
     align-items: center;
     gap: 15px;
 }
+
+@media (max-width: 700px) {
+    .app .footer p {
+        font-size: 80%;
+    }
+}
