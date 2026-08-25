@@ -8,6 +8,12 @@ form input {
     color: rgb(63, 169, 245);
 }
 
+@media (max-width: 700px) {
+    .app .form input {
+        font-size: 80%;
+    }
+}
+
 form input::placeholder {
     text-align: center;
 }
