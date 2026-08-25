@@ -69,7 +69,7 @@
     font-size: 24px;
     line-height: 1;
     font-family: monospace;
-    color: black;
+    color: white;
     cursor: pointer;
 }
 
@@ -91,6 +91,8 @@
 .game-box__info h2 {
     margin: 0 0 10px 0;
     text-transform: uppercase;
+    color: white;
+    font-weight: bold;
 }
 
 .game-box__info p {
