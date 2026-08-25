@@ -35,7 +35,6 @@ function GameBox({ game, expanded, onToggle }) {
             ) : (
                 <span className="game-box__placeholder">?</span>
             )}
-            <span className="game-box__title">{game.title}</span>
         </button>
     )
 }
