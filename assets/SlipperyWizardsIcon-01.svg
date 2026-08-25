@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 200">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="m194,6v188H6V6h188m6-6H0v200h200V0h0Z"/>
+  <image width="1439" height="1525" transform="translate(13.66 8.5) scale(.12)" xlink:href="D:\PC\Slippery Wizards - Finished Files 1-14-26\ImagesForVideo\NecromasterSlip.png"/>
+</svg>
