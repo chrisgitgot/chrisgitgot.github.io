@@ -1,0 +1,20 @@
+.contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    padding-top: 25px;
+    font-size: 160%;
+}
+
+@media (max-width: 1440px) {
+    .contact {
+        font-size: 400%;
+    }
+}
+
+@media (max-width: 1080px) {
+    .contact {
+        font-size: 400%;
+    }
+}

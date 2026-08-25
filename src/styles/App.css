@@ -1,0 +1,68 @@
+.app {
+    background-color: rgb(63, 169, 245);
+    color: white;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 1%;
+    gap: clamp(10px, 2vw, 15px);
+    min-height: 100vh;
+}
+
+.app.inverted {
+    background-color: black;
+    color: white;
+    filter: invert(1);
+}
+
+.app h1 {
+    text-align: center;
+    color: white;
+    font-size: 200%;
+}
+
+.app p {
+    color: white;
+    font-size: 125%;
+}
+
+.app a {
+    color: white;
+}
+
+.main-content {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.logo-container {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.logo-container img,
+.logo-container form,
+.logo-container input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 1440px) {
+    .logo-container {
+        width: 60%;
+    }
+}
+
+@media (max-width: 1080px) {
+    .logo-container {
+        width: 85%;
+    }
+}
