@@ -7,14 +7,8 @@
     font-size: 160%;
 }
 
-@media (max-width: 1440px) {
-    .contact {
-        font-size: 400%;
-    }
-}
-
-@media (max-width: 1080px) {
-    .contact {
-        font-size: 400%;
+@media (max-width: 700px) {
+    .app .footer p {
+        font-size: 80%;
     }
 }
