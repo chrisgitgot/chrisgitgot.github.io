@@ -1,0 +1,23 @@
+.navigation {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.navigation h1 {
+    margin: 0;
+    font-size: 160%;
+}
+
+@media (max-width: 1440px) {
+    .navigation h1 {
+        font-size: 400%;
+    }
+}
+
+@media (max-width: 1080px) {
+    .navigation h1 {
+        font-size: 400%;
+    }
+}
