@@ -8,7 +8,7 @@ const games = [
         title: 'Slippery Wizards',
         image: '/assets/SlipperyWizardsIcon-01.png',
         alt: 'Slippery Wizards Icon',
-        description: 'A competitive tile-based tabletop card game of puzzling strategy. Slip into a world of tiles and tentacles! Flip the tiles below to transform the board! Cast spells from a deck of devious magic to claim your victory!.',
+        description: 'A competitive tile-based tabletop card game of puzzling strategy. Slip into a world of tiles and tentacles! Flip the tiles below to transform the board! Cast spells from a deck of devious magic to claim your victory!',
         href: 'https://www.kickstarter.com/projects/largehotcoffee/slippery-wizards',
         linkLabel: 'View on Kickstarter',
     },
