@@ -11,13 +11,13 @@
 }
 
 @media (max-width: 1440px) {
-    .navigation h1 {
-        font-size: 400%;
+    .navigation {
+        font-size: 80%;
     }
 }
 
 @media (max-width: 1080px) {
-    .navigation h1 {
-        font-size: 400%;
+    .navigation {
+        font-size: 80%;
     }
 }
