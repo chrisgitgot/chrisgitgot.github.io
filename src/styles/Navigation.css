@@ -12,12 +12,12 @@
 
 @media (max-width: 1440px) {
     .navigation {
-        font-size: 80%;
+        font-size: 70%;
     }
 }
 
 @media (max-width: 1080px) {
     .navigation {
-        font-size: 80%;
+        font-size: 70%;
     }
 }
